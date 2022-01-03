@@ -21,19 +21,24 @@ header a {
 header nav {
         margin: 7px 0;
 }
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 body {
         color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
-div {
+section div {
     display: block;
 }  
 footer {
@@ -62,12 +67,7 @@ section {
     background-position: center;
     position: relative;
 }
-.hero {
-    margin: 20px;
-    font-size: 20px;
-    background-color: white;
-    color: blue;
-}
+
 .hero-secondary {
     margin: 20px;
     background-color: black;

@@ -13,4 +13,4 @@ https://raesii.github.io/run-buddy/
 ## Contribution
 Made with ❤️ by RaeSii
 
-### ©️2019 Run Buddy, Inc 
+### ©️2023 Run Buddy, Inc 
